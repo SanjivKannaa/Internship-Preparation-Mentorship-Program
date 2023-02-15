@@ -3,8 +3,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
-
 void array_intersection(int arr1[], int arr2[], int n1, int n2){
     cout << "duh";
     int i=0;
@@ -58,4 +56,5 @@ int main(){
     array_intersection(arr1, arr2, n1, n2);
     cout << "union: ";
     // array_union(arr1, arr2, n1, n2);
+    return 0;
 }
