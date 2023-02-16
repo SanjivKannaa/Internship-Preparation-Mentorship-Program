@@ -7,66 +7,46 @@ struct node {
     struct node* next;
 };
 
-struct node *head = NULL;
+struct node *head1 = NULL;
+struct node *head2 = NULL;
 
-void insert_first(int data){
+void insert_first1(int data){
     struct node* newnode = new node();
     newnode->data = data;
-    newnode->next = head;
-    head = newnode;
+    newnode->next = head1;
+    head1 = newnode;
 }
 
-void insert_last(int data){
+void insert_first2(int data){
     struct node* newnode = new node();
     newnode->data = data;
-    newnode->next = NULL;
-    struct node* current = head;
-    while (current->next!=NULL){
-        current = current->next;
-    }
-    current->next = newnode;
+    newnode->next = head2;
+    head2 = newnode;
 }
 
-int delete_first(){
-    struct node* temp = head;
-    head = head->next;
-    int data = temp->data;
-    free(temp);
-    return data;
-}
 
-int delete_last(){
-    if (head==NULL){
-        cout << "linkedlist is empty";
-	    return -1;
-    }
-    if (head->next==NULL){
-	    struct node* temp = head;
-	    head = NULL;
-	    int data = temp->data;
-	    free(temp);
-	    return data;
-    }
-    struct node* current = head;
-    while(current->next->next!=NULL){
-        current = current->next;
-    }
-    struct node* temp = current->next;
-    int data = temp->data;
-    current->next = NULL;
-    free(temp);
-    return data;
-}
-
-node* getIntesectionNode(node* head1, node* head2){
-    while (head2) {
-        node* temp = head1;
-        while (temp) {
-            if (temp == head2)
-                return head2;
-            temp = temp->next;
+int main(){
+    insert_first1(5);
+    insert_first1(4);
+    insert_first1(3);
+    insert_first1(2);
+    insert_first1(1);
+    insert_first2(8);
+    insert_first2(7);
+    insert_first2(4);
+    insert_first2(5);
+    insert_first2(6);
+    struct node* current1 = head1;
+    struct node* current2 = head2;
+    while(current1!=NULL){
+        current2 = head2;
+        while (current2!=NULL){
+            if (current1->data == current2->data){
+                cout << "intersection happens at : " << current1->data << " " << endl;
+                return 0;
+            }
+            current2=current2->next;
         }
-        head2 = head2->next;
+        current1=current1->next;
     }
-    return NULL;
 }
