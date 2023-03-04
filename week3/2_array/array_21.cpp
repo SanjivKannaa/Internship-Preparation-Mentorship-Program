@@ -3,14 +3,18 @@
 using namespace std;
 
 int main(){
-    int arr[] = { 0, 4, 3, 2, 7, 8, 2, 3, 1 };
+    int arr[] = {1, 2, 3, 2, 1};
     int n = sizeof(arr)/sizeof(arr[0]);
-    int rsum = 0;
+    int lsum = 0, rsum = 0;
     for (int i=0;i<n;i++){
-        rsum = rsum + arr[i];
+        rsum += arr[i];
     }
-    int lsum = arr[0];
     for (int i=0;i<n;i++){
-        
+        rsum -= arr[i];
+        // cout << lsum << "\t" << rsum << endl;
+        if (lsum==rsum){
+            cout << "leftsum=rightrum @ " << arr[i] << endl;
+        }
+        lsum += arr[i];
     }
 }
