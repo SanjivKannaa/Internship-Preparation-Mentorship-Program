@@ -16,7 +16,7 @@ int main(){
             i=j;
             j++;
         }else{
-            ;
+            
         }
     }
 }
