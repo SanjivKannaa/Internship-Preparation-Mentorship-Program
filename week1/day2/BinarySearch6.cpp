@@ -16,7 +16,11 @@ int main(){
             c++;
             j++;
         }else{
-            
+            if (count<c){
+                count=c;
+            }
+            i=j+1;
+            c=0;
         }
     }
 }
