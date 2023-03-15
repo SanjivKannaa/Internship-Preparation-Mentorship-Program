@@ -11,12 +11,18 @@ int main(){
     // answer = 7
     int i=0;
     int j=1;
+    int c;
     while(j<sizeof(arr)/sizeof(arr[0])){
         if (arr[i]>=arr[j]){
             i=j;
             j++;
+            if (count<c){
+                count=c;
+            }
+            c=0
         }else{
-            
+            c++;
         }
     }
+    cout << count;
 }
