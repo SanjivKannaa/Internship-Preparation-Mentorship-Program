@@ -12,7 +12,10 @@ int main(){
     int i=0;
     int j=1;
     while(j<sizeof(arr)/sizeof(arr[0])){
-        if (arr[i]<arr[j]){
+        if (arr[i]>=arr[j]){
+            i=j;
+            j++;
+        }else{
             
         }
     }
