@@ -19,7 +19,7 @@ int main(){
             if (count<c){
                 count=c;
             }
-            c=0
+            c=0;
         }else{
             c++;
         }
