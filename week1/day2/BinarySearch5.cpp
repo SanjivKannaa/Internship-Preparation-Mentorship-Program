@@ -13,7 +13,7 @@ int main(){
     int j=1;
     int c;
     while(j<sizeof(arr)/sizeof(arr[0])){
-        if (arr[i]>=arr[j]){
+        if (arr[j]<=arr[j-1]){
             i=j;
             j++;
             if (count<c){
@@ -22,6 +22,7 @@ int main(){
             c=0;
         }else{
             c++;
+            j++;
         }
     }
     cout << count;
