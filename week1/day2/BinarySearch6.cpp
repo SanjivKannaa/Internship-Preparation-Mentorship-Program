@@ -7,7 +7,7 @@ using namespace std;
 
 int main(){
     int count=0;
-    int arr[] = {1, 2, 2, 3, 3, 3, 4, 4, 5};
+    int arr[] = {1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5};
     int i = 0;
     int j = 0;
     int c=0;
