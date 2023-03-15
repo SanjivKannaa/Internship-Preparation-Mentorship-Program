@@ -11,6 +11,7 @@ int main(){
     int i = 0;
     int j = 0;
     int c=0;
+    int number = arr[0];
     while(j<sizeof(arr)/sizeof(arr[0])){
         if (arr[i] == arr[j]){
             c++;
@@ -18,9 +19,13 @@ int main(){
         }else{
             if (count<c){
                 count=c;
+                number = i;
             }
+            cout << count << endl;
             i=j+1;
+            j++;
             c=0;
         }
     }
+    cout << number << " " << count << endl;
 }
