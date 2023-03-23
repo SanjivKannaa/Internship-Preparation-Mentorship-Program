@@ -21,6 +21,10 @@ void insert_last(int data){
     newnode->data = data;
     newnode->next = NULL;
     struct node* current = head;
+    if (current==NULL){
+        head=newnode;
+        return ;
+    }
     while (current->next!=NULL){
         current = current->next;
     }
@@ -72,14 +76,5 @@ void printll(){
 }
 
 int main(){
-    insert_first(1);
-    cout << head->data << endl;
-    printll();
-    insert_last(1);
-    printll();
-    delete_last();
-    printll();
-    delete_last();
-    printll();
+    
 }
-
