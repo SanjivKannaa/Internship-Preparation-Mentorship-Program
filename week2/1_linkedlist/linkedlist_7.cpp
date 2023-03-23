@@ -58,3 +58,28 @@ int delete_last(){
     return data;
 }
 
+void printll(){
+    struct node *current = head;
+    if (current==NULL){
+        cout << "NULL" << endl;
+        return ;
+    }
+    while(current!=NULL){
+        cout << "->" << current->data;
+        current=current->next;
+    }
+    cout << endl;
+}
+
+int main(){
+    insert_first(1);
+    cout << head->data << endl;
+    printll();
+    insert_last(1);
+    printll();
+    delete_last();
+    printll();
+    delete_last();
+    printll();
+}
+
