@@ -2,201 +2,201 @@
 
 WEEK1
 
-day1 - STL
-[x] q1
-[x] q2
-[x] q3
-[x] q4
-[x] q5
-
-day2 - binary search
-[x] q1
-[x] q2
-[x] q3
-[x] q4
-[x] q5
-[] q6
-[x] q7
-[] q8
-[x] q9
-[] q10
-[] q11
-[] q12
-[] q13
-[] q14
-
-day3 - sorting
-[]q1
-[x]q2
-[x]q3
-[]q4
-[]q5
-[]q6
-[x]q7
-[]q8
-[]q9
-[]q10
-
-day4 - bit manipulation
-[x]q1
-[x]q2
-[x]q3
-[x]q4
-[x]q5
-[x]q6
-[x]q7
-[x]q8
-[x]q9
-[x]q10
-[x]q11
-
-
-
-
-
-
-WEEK2
-day1 - linkedlist
-[x]q1
-[x]q2
-[x]q3
-[x]q4
-[x]q5
-[x]q6
-[]q7
-[x]q8
-[x]q9
-[x]q10
-[]q11
-[]q12
-
-day2 - arrays
-[x]q1
-[x]q2
-[x]q3
-[x]q4
-[x]q5
-[x]q6
-[x]q7
-
-day3 - linkedlist
-[x] q13
-[x] q14
-[x] q15
-[x] q16
-[] q17
-[] q18
-[] q19
-[] q20
-[] q21
-
-day4 - heap
-[]q1
-[]q2
-[]q3
-[]q4
-[]q5
-[]q6
-[]q7
-
-
-
-
-
-
-WEEK3
-day1 - arrays
-[x] q8
-[x] q9
-[x] q10
-[x] q11
-[x] q12
-[x] q13
-[x] q14
-[x] q15
-[x] q16
-[x] q17
-
-day2 - arrays
-[x] q18
-[x] q19
-[x] q20
-[x] q21
-[x] q22
-[] q23
-[] q24
-
-day3 - linkedlist
-[] q22
-[] q23
-[] q24
-[] q25
-[] q26
-[] q27
-[] q28
-[] q29
-[] q30
-[] q31
-[] q32
-[] q33
-
-day4 - strings
-[x]q1
-[]q2
-[]q3
-[]q4
-[]q5
-[]q6
-[]q7
-[]q8
-[]q9
-[]q10
-
-
-
-
-
-
-
-WEEK4
-day1 - arrays
-[] q24
-[] q25
-[] q26
-[] q27
-[] q28
-[] q29
-[] q30
-[] q31
-[] q32
-[] q33
-
-day2 - arrays
-[] q34
-[] q35
-[] q36
-[] q37
-[] q38
-[] q39
-[] q40
-[] q41
-[] q42
-[] q43
-
-
-day3 - strings
-[] q11
-[] q12
-[] q13
-[] q14
-[] q15
-[] q16
-[] q17
-[] q18
-
-
-
-
-
-
-WEEK5
+<br />day1 - STL
+<br />[x] q1
+<br />[x] q2
+<br />[x] q3
+<br />[x] q4
+<br />[x] q5
+<br />
+<br />day2 - binary search
+<br />[x] q1
+<br />[x] q2
+<br />[x] q3
+<br />[x] q4
+<br />[x] q5
+<br />[] q6
+<br />[x] q7
+<br />[] q8
+<br />[x] q9
+<br />[] q10
+<br />[] q11
+<br />[] q12
+<br />[] q13
+<br />[] q14
+<br />
+<br />day3 - sorting
+<br />[]q1
+<br />[x]q2
+<br />[x]q3
+<br />[]q4
+<br />[]q5
+<br />[]q6
+<br />[x]q7
+<br />[]q8
+<br />[]q9
+<br />[]q10
+<br />
+<br />day4 - bit manipulation
+<br />[x]q1
+<br />[x]q2
+<br />[x]q3
+<br />[x]q4
+<br />[x]q5
+<br />[x]q6
+<br />[x]q7
+<br />[x]q8
+<br />[x]q9
+<br />[x]q10
+<br />[x]q11
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />WEEK2
+<br />day1 - linkedlist
+<br />[x]q1
+<br />[x]q2
+<br />[x]q3
+<br />[x]q4
+<br />[x]q5
+<br />[x]q6
+<br />[]q7
+<br />[x]q8
+<br />[x]q9
+<br />[x]q10
+<br />[]q11
+<br />[]q12
+<br />
+<br />day2 - arrays
+<br />[x]q1
+<br />[x]q2
+<br />[x]q3
+<br />[x]q4
+<br />[x]q5
+<br />[x]q6
+<br />[x]q7
+<br />
+<br />day3 - linkedlist
+<br />[x] q13
+<br />[x] q14
+<br />[x] q15
+<br />[x] q16
+<br />[] q17
+<br />[] q18
+<br />[] q19
+<br />[] q20
+<br />[] q21
+<br />
+<br />day4 - heap
+<br />[]q1
+<br />[]q2
+<br />[]q3
+<br />[]q4
+<br />[]q5
+<br />[]q6
+<br />[]q7
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />WEEK3
+<br />day1 - arrays
+<br />[x] q8
+<br />[x] q9
+<br />[x] q10
+<br />[x] q11
+<br />[x] q12
+<br />[x] q13
+<br />[x] q14
+<br />[x] q15
+<br />[x] q16
+<br />[x] q17
+<br />
+<br />day2 - arrays
+<br />[x] q18
+<br />[x] q19
+<br />[x] q20
+<br />[x] q21
+<br />[x] q22
+<br />[] q23
+<br />[] q24
+<br />
+<br />day3 - linkedlist
+<br />[] q22
+<br />[] q23
+<br />[] q24
+<br />[] q25
+<br />[] q26
+<br />[] q27
+<br />[] q28
+<br />[] q29
+<br />[] q30
+<br />[] q31
+<br />[] q32
+<br />[] q33
+<br />
+<br />day4 - strings
+<br />[x]q1
+<br />[]q2
+<br />[]q3
+<br />[]q4
+<br />[]q5
+<br />[]q6
+<br />[]q7
+<br />[]q8
+<br />[]q9
+<br />[]q10
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />WEEK4
+<br />day1 - arrays
+<br />[] q24
+<br />[] q25
+<br />[] q26
+<br />[] q27
+<br />[] q28
+<br />[] q29
+<br />[] q30
+<br />[] q31
+<br />[] q32
+<br />[] q33
+<br />
+<br />day2 - arrays
+<br />[] q34
+<br />[] q35
+<br />[] q36
+<br />[] q37
+<br />[] q38
+<br />[] q39
+<br />[] q40
+<br />[] q41
+<br />[] q42
+<br />[] q43
+<br />
+<br />
+<br />day3 - strings
+<br />[] q11
+<br />[] q12
+<br />[] q13
+<br />[] q14
+<br />[] q15
+<br />[] q16
+<br />[] q17
+<br />[] q18
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />WEEK5
