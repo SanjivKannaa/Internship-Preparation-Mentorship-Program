@@ -63,11 +63,11 @@ day1 - linkedlist<br />
 [x]q4<br />
 [x]q5<br />
 [x]q6<br />
-[]q7<br />
+[x]q7<br />
 [x]q8<br />
 [x]q9<br />
 [x]q10<br />
-[]q11<br />
+[x]q11<br />
 []q12<br />
 <br />
 day2 - arrays<br />
