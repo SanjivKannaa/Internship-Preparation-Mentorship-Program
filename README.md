@@ -68,7 +68,7 @@ day1 - linkedlist<br />
 [x]q9<br />
 [x]q10<br />
 [x]q11<br />
-[]q12<br />
+[x]q12<br />
 <br />
 day2 - arrays<br />
 [x]q1<br />
