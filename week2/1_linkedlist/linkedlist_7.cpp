@@ -75,6 +75,29 @@ void printll(){
     cout << endl;
 }
 
+bool detect_loop(){
+    struct node *current = head;
+    unordered_set<struct node*> s;
+    while (current!=NULL){
+        if (s.find(current)!=s.end()){
+            return true;
+        }
+        s.insert(current);
+        current = current->next;
+    }
+    return false;
+}
+
 int main(){
-    
+    insert_first(1);
+    insert_first(2);
+    insert_first(3);
+    insert_first(4);
+    insert_first(5);
+    head->next->next->next->next=head->next->next;
+    if (detect_loop()){
+        cout << "loop exists!" << endl;
+    }else{
+        cout << "no loop" << endl;
+    }
 }
