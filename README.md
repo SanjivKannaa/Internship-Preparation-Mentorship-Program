@@ -160,7 +160,7 @@ day4 - strings<br />
 <br />
 WEEK4<br />
 day1 - arrays<br />
-[] q24<br />
+[x] q24<br />
 [] q25<br />
 [] q26<br />
 [] q27<br />
